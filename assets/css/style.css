@@ -1,0 +1,125 @@
+/*! By Henrik Backman - henrikbackman.com */
+
+html, body {
+  font-size: 100%;
+}
+
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-synthesis:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html,button,input,select,textarea{font-family:sans-serif}
+body{line-height:1;margin:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+table{border-collapse:collapse;border-spacing:0}
+img,svg{vertical-align:middle}
+h1,h2{font-family:"Open Sans Condensed",sans-serif}
+h1{font-size:36px;font-size:2.25rem;line-height:1.2;font-weight:700;margin:0.3em 0 0;text-transform:uppercase}
+
+@media (min-width: 610px) {
+  h1{font-size:48px;font-size:3rem}
+}
+
+@media (min-width: 940px) {
+  h1{font-size:60px;font-size:3.75rem}
+}
+
+h2{font-size:16px;font-size:1rem;font-weight:300;letter-spacing:0;margin:0;padding-right:27px}
+
+@media (min-width: 940px) {
+  h2{font-size:18px;font-size:1.125rem}
+}
+
+h3,h4,strong{color:#333;font-weight:400}
+h3{font-size:1em;margin:0 0 8px}
+h4{margin:0}
+a{color:#444;text-decoration:none;-webkit-tap-highlight-color:rgba(81,81,81,0.5)}
+a:hover{color:#c00;outline:0;text-decoration:underline}
+
+::-moz-selection{background:#999;color:#fff;text-shadow:none}
+::selection{background:#999;color:#fff;text-shadow:none}
+
+p{margin:1em 0}
+img{border:0;display:block;height: auto; image-rendering:optimizeQuality;width:100%;-ms-interpolation-mode:bicubic}
+figure{margin:0}
+body{background-color:#f7f7f7;-webkit-box-shadow:inset 0 0 100px rgba(0,0,0,0.2);box-shadow:inset 0 0 100px rgba(0,0,0,0.2);color:#333;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:13px;font-size:.8125rem;line-height:1.6;font-weight:300;letter-spacing:-0.01em}
+.wrap{height:auto;margin:0 auto;max-width:1700px;padding:30px 20px;width:auto}
+.header{height:auto;margin:0 auto 30px;overflow:hidden;padding:30px 0;text-align:center;width:100%}
+.header p{margin:0}
+.projects{font-size:0;list-style:none;margin:0;padding:0;position:relative}
+.item,
+.contact{display:inline-block;font-size:13px;font-size:.8125rem;margin:0 2% 30px}
+.item{background:#fff;border-radius:2px;-webkit-box-shadow:0 0 1px rgba(0,0,0,0.2);box-shadow:0 0 1px rgba(0,0,0,0.2);overflow:hidden;vertical-align:top;width:96%}
+
+@media (min-width: 610px) {
+  .item{-webkit-transition:-webkit-box-shadow .15s ease-in-out;transition:-webkit-box-shadow .15s ease-in-out;-o-transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;width:46%}
+  .item:hover{-webkit-box-shadow:0 3px 22px rgba(0,0,0,0.13);box-shadow:0 3px 22px rgba(0,0,0,0.13)}
+}
+
+@media (min-width: 940px) {
+  .item{width:29.33%}
+}
+
+.item p{margin:0}
+.item .info strong{margin-right:3px}
+.item .info,
+.item .info a{color:#666}
+.item img{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.2);box-shadow:0 0 8px rgba(0,0,0,0.2)}
+.item figure > a{display:block;position:relative}
+
+@media (min-width: 610px) {
+  .item figure > a:after{background:rgba(255,255,255,0.32);-webkit-box-shadow:inset 0 0 33px 3px rgba(153,153,153,0.06);box-shadow:inset 0 0 33px 3px rgba(153,153,153,0.06);content:"";height:100%;left:0;opacity:0;position:absolute;-webkit-transition:opacity .15s ease-in-out;-o-transition:opacity .15s ease-in-out;transition:opacity .15s ease-in-out;top:0;width:100%}
+  .item figure > a:hover:after{opacity:1}
+}
+
+.item figcaption{padding:20px 15px}
+.contact{-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:90px;position:relative;width:96%}
+
+@media (min-width: 610px) {
+  .contact{padding-left:140px}
+}
+
+@media (min-width: 940px) {
+  .contact{padding-left:170px}
+}
+
+.contact:before{background:url(../img/henrik-backman.jpg) 50% 50% no-repeat;background-size:contain;-webkit-box-shadow:1px 1px 1px rgba(0,0,0,0.2);box-shadow:1px 1px 1px rgba(0,0,0,0.2);border-radius:50%;content:"";display:block;height:75px;left:0;position:absolute;-webkit-transition:-webkit-box-shadow .15s ease-in-out;transition:-webkit-box-shadow .15s ease-in-out;-o-transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;top:0;width:75px}
+
+@media (min-width: 610px) {
+  .contact:before{height:110px;width:110px}
+}
+
+@media (min-width: 940px) {
+  .contact:before{height:140px;width:140px}
+}
+
+.contact:hover:before{-webkit-box-shadow:-1px 2px 1px rgba(0,0,0,0.2);box-shadow:-1px 2px 1px rgba(0,0,0,0.2)}
+.contact ul{list-style:none;margin:0;padding:0}
+
+@media (min-width: 940px) {
+  body,
+  .item,
+  .contact{font-size:14px;font-size:.875rem}
+}
+
+input[type="checkbox"]{left:-9999px;opacity:0;visibility:hidden;position:absolute;top:-9999px}
+.toggle-info{background:transparent;border:0;cursor:pointer;display:inline-block;float:right;height:20px;margin:-23px -8px 0 0;outline:none;padding:0;position:relative;width:30px;z-index:1}
+.toggle-info:before,
+.toggle-info:after{background:#999;content:"";height:2px;margin-left:6px;position:absolute;-webkit-transition:-webkit-transform .2s ease-in-out;transition:-webkit-transform .2s ease-in-out;-o-transition:transform .2s ease-in-out;transition:transform .2s ease-in-out;transition:transform .2s ease-in-out, -webkit-transform .2s ease-in-out;top:8px;width:10px}
+.toggle-info:before{left:0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+.toggle-info:after{left:6px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}input[type="checkbox"]:checked+.toggle-info:before{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}input[type="checkbox"]:checked+.toggle-info:after{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}input[type="checkbox"]:checked+.toggle-info+.info-wrapper{max-height:600px}
+.info-wrapper{max-height:0;overflow:hidden;-webkit-transition:max-height .3s ease-in-out;-o-transition:max-height .3s ease-in-out;transition:max-height .3s ease-in-out}
+.info{border-top:1px solid #f5f5f5;margin:20px -15px 0;padding:20px 15px 0}
+.info ul.techniques{list-style:none;margin:0;padding:0}
+.info ul.techniques li{display:inline}
+.info ul.techniques li:after{content:", "}
+.info ul.techniques li:first-child:after,
+.info ul.techniques li:last-child:after{content:""}
+.awards-wrapper{margin-top:10px}
+.awards-wrapper h3{margin-bottom:5px}
+.awards-wrapper ul{list-style:none;margin:0;padding:0}
+.awards-wrapper li{margin-bottom:5px;padding-left:1.7em;position:relative}
+.awards-wrapper li:before,
+.awards-wrapper li:after{content:"";position:absolute}
+.awards-wrapper li:before{background:-webkit-gradient(linear, left top, right top, from(#069), color-stop(49%, #069), color-stop(51%, #fc0), to(#fc0));background:-webkit-linear-gradient(left, #069 0%, #069 49%, #fc0 51%, #fc0 100%);background:-o-linear-gradient(left, #069 0%, #069 49%, #fc0 51%, #fc0 100%);background:linear-gradient(to right, #069 0%, #069 49%, #fc0 51%, #fc0 100%);-webkit-box-shadow:0 0 1px rgba(0,0,0,0.4);box-shadow:0 0 1px rgba(0,0,0,0.4);height:6px;left:3px;top:7px;width:6px}
+.awards-wrapper li:after{border-radius:50%;-webkit-box-shadow:0 -1px 1px rgba(0,0,0,0.2);box-shadow:0 -1px 1px rgba(0,0,0,0.2);height:10px;left:1px;top:12px;width:10px}
+.awards-wrapper li.gold:after{background:-webkit-gradient(linear, left top, left bottom, from(#e2b86c), to(#d8a23d));background:-webkit-linear-gradient(top, #e2b86c 0%, #d8a23d 100%);background:-o-linear-gradient(top, #e2b86c 0%, #d8a23d 100%);background:linear-gradient(to bottom, #e2b86c 0%, #d8a23d 100%)}
+.awards-wrapper li.silver:after{background:-webkit-gradient(linear, left top, left bottom, from(#c2c2c2), to(#a5a5a5));background:-webkit-linear-gradient(top, #c2c2c2 0%, #a5a5a5 100%);background:-o-linear-gradient(top, #c2c2c2 0%, #a5a5a5 100%);background:linear-gradient(to bottom, #c2c2c2 0%, #a5a5a5 100%)}
+.awards-wrapper li.bronze:after{background:-webkit-gradient(linear, left top, left bottom, from(#ba7147), to(#925837));background:-webkit-linear-gradient(top, #ba7147 0%, #925837 100%);background:-o-linear-gradient(top, #ba7147 0%, #925837 100%);background:linear-gradient(to bottom, #ba7147 0%, #925837 100%)}
