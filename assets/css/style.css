@@ -100,6 +100,30 @@ body{background-color:#f7f7f7;-webkit-box-shadow:inset 0 0 100px rgba(0,0,0,0.2)
   opacity: 1;
 }
 
+.item.edu {
+  position: relative;
+}
+
+.item.edu figure::before {
+  background: #222;
+  box-shadow: 0 0 8px rgba(255, 255, 255, .2);
+  content: "";
+  display: block;
+  height: 0;
+  padding-bottom: 50%;
+  position: relative;
+  width: 100%;
+}
+
+.item.edu img {
+  box-shadow: none;
+  left: 10%;
+  position: absolute;
+  top: 0;
+  transform: translateY(200%);
+  width: 80%;
+}
+
 @media (min-width: 610px) {
   .item{-webkit-transition:-webkit-box-shadow .15s ease-in-out;transition:-webkit-box-shadow .15s ease-in-out;-o-transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out;transition:box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;width:46%}
   .item:hover{-webkit-box-shadow:0 3px 22px rgba(0,0,0,0.13);box-shadow:0 3px 22px rgba(0,0,0,0.13)}
