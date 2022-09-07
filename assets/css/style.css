@@ -306,8 +306,7 @@ body {
   box-shadow: none;
   left: 10%;
   position: absolute;
-  top: 0;
-  transform: translateY(200%);
+  top: 40%;
   width: 80%;
 }
 
